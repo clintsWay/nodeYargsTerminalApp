@@ -1,0 +1,37 @@
+const os = require('os');
+
+console.log('Process', process.argv);
+
+var unfilteredArray = _.uniq(['clint', 'andrew', 1, 2, 2, 3, 3, ]);
+console.log(unfilteredArray);
+
+// module.exports.addNote = () => {
+//     console.log('console log from inside note')
+//     return 'New note';
+// }
+
+// module.exports.addTwoNumbs = (a, b) => a + b;
+
+
+// console.log(_.isString(true));
+// console.log(_.isString('Andrew'));
+// console.log(_.isString(5));
+
+// fs.appendFile('greetings', 'Hello world!');
+//  doesn't work any more.  use one of the alternatives below.
+
+// fs.appendFileSync('greetings.txt', 'Hello world!');
+
+// var user = os.userInfo();
+
+// var res = notes.addTwoNumbs(2, 3);
+// console.log('a + b =', res);
+
+// var res = notes.addNote();
+// console.log('sent to app from notes', res);
+
+// fs.appendFile('greetings.txt', `Hello ${user.username}! you are not ${notes.age}`, function(err) {
+// if (err) {
+//     console.log('Unable to write to file');
+//     }
+// });
